@@ -1,0 +1,21 @@
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.ist
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+
+# macOS
+.DS_Store
+
+# Local latexmk configuration
+.latexmkrc
