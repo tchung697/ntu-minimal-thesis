@@ -20,27 +20,36 @@ ntu-minimal-thesis/
 
 ### 1. 填寫論文資料
 
-開啟 `main.tex`，修改最上方的 `\ThesisSetup{...}`：
+以下是 `main.tex` 目前使用的完整設定。使用模板時，請直接修改各欄位的值：
 
 ```latex
 \ThesisSetup{
-  font-main     = {Songti TC},        % 中文正文字體
-  font-sans     = {Heiti TC},         % 中文無襯線字體
-  font-kai      = {Kaiti TC},         % 中文楷體
-  college-zh    = {學院中文名稱},
-  college-en    = {College Name},
-  department-zh = {系所中文名稱},
-  department-en = {Department Name},
-  title-zh      = {中文論文題目},
-  title-en      = {English Thesis Title},
-  author-zh     = {作者中文姓名},
-  author-en     = {Author Name},
-  student-id    = {學號},
-  advisor-zh    = {指導教授中文姓名}, % 只填姓名，不加「教授」或「博士」
-  advisor-en    = {Advisor Name},     % 只填姓名，不加 "Professor" 或 "Dr."
-  thesis-date   = {2026-06},          % 論文年月：YYYY-MM
-  defense-date  = {2026-05-15},       % 口試日期：YYYY-MM-DD
-  doi           = {}                  % 尚無 DOI 時留空
+  % 中文字體；請填入 XeLaTeX 可辨識的字體族名稱
+  font-main     = {Songti TC},       % 正文字體
+  font-sans     = {Heiti TC},        % 無襯線與等寬字體
+  font-kai      = {Kaiti TC},        % 楷體
+
+  % 學院與系所；中英文四個欄位皆無預設值
+  college-zh    = {社會科學院},       % 學院中文名稱
+  college-en    = {College of Social Sciences}, % 學院英文名稱
+  department-zh = {經濟學系},         % 系所中文名稱
+  department-en = {Department of Economics},   % 系所英文名稱
+
+  % 論文題目
+  title-zh      = {從三千公里到黃泉：大雄與鄭莊公的尋母方法},
+  title-en      = {From Three Thousand Kilometers to the Yellow Springs: How Nobita and Duke Zhuang Found Their Mothers},
+
+  % 作者、學號與指導教授
+  author-zh     = {範例學生},         % 作者中文姓名
+  author-en     = {Example Student}, % 作者英文姓名
+  student-id    = {R00000000},       % 學號
+  advisor-zh    = {派大星教授加},      % 指導教授中文欄位
+  advisor-en    = {Professor Patrick Star}, % 指導教授英文欄位
+
+  % 日期與 DOI
+  thesis-date   = {2026-06},         % 論文年月：YYYY-MM
+  defense-date  = {2026-05-15},      % 口試日期：YYYY-MM-DD
+  doi           = {10.1234/ntu.thesis}, % 尚無 DOI 時填 {}
 }
 ```
 
