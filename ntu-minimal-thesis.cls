@@ -151,7 +151,7 @@
   \begin{titlepage}
     \singlespacing
     \centering
-    \newgeometry{top=3cm,bottom=3cm,left=2.9cm,right=2.9cm}
+    \newgeometry{top=3cm,bottom=3cm,left=3cm,right=3cm}
     {\fontsize{18}{27}\selectfont\kai
       國立臺灣大學\ntuminimalCollegeZh\ntuminimalDepartmentZh \par
       碩士論文 \par
